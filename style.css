@@ -15,6 +15,14 @@
   font-style: normal;
 }
 
+
+.manrope-uniquifier{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -199,7 +207,6 @@ h1.Collection-h1 {
 
 
 .btn {
-    float: inline-end;
     margin-top: 30px;
     margin-right: 45px;
     font-size: 1rem;
@@ -209,9 +216,87 @@ h1.Collection-h1 {
     border: none;
     font-weight: 800;
     background: white;
+    margin-left: auto;
+}
+/* Featured start */
+section.Featured {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+img.f-img {
+    /* width: 600px; */
+    width: 100%;
+    margin-left: 90px;
+}
+
+.Featured-main {
+    display: flex;
+    gap: 190px;
+    align-items: center;
+}
+
+h1.featured-h1 {
+    font-size: 2.37rem;
+    color: rgba(10, 8, 38, 1);
+    font-weight: 800;
+}
+h1.featured-h1 {
+    font-size: 2.37rem;
+    color: rgba(10, 8, 38, 1);
+    font-weight: 800;
+}
+
+p.features.p {
+    font-weight: 800;
+    color: rgba(108, 108, 108, 1);
+    max-width: 510px;
+    margin-top: 20px;
+}
+
+/* footer start */
+.footer-container {
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer {
+    background-color: rgb(10, 08,38);
+    margin-top: 100px;
+    height: 200px;
 }
 
 
+h4.footer-h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+}
+
+p.footer-copy {
+    font-size: 0.87rem;
+    font-weight: 800;
+    color: rgba(217, 219, 225, 1);
+    font-family: "Manrope", sans-serif;
+    margin-top: 10px;
+}
+
+p.footer-all-right {
+    font-size: 0.87rem;
+    color: rgba(217, 219, 225, 1);
+    font-weight: 800;
+    margin-top: 15px;
+}
+.footer-icon {
+    font-size: 20px;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #ffff;
+    margin-top: 12px;
+}
 
 
 
@@ -233,6 +318,7 @@ h1.Collection-h1 {
 }
 .head-title-img{
     flex-direction: column-reverse;
+    /* width: 100%; */
 }
 .nav-main {
     margin-top: 15px;
@@ -246,23 +332,18 @@ h1.Collection-h1 {
 .header-title
 
 {
-    margin-top: 200px;
-    margin-left: 56px;
+    text-align: center;
 }
 button.btn-primary{
-    margin: auto;
-    margin-top: 30px;
     gap: 8px;
-    margin-left: 52px;
+    margin-left: 145px;
 }
     .banner-img {
         grid-template-columns: repeat(4, 1fr);
         display: grid;
-        width: 113px;
-        height: 211px;
         align-content: space-evenly;
         gap: 24px;
-        margin: -74px 220px;
+        padding-left: 50px;
     }
 
 
@@ -270,10 +351,10 @@ img.img-grid{
     width: 59px;
 }
 
-h1.Collection-h1 {margin-left: 130px;}
+h1.Collection-h1 {margin-left: 80px;width: 271px;}
 
 .Collection-container{
-    margin-left: 40px;
+    margin-left: 37px;
 }
 
 .Collection-container{
@@ -282,23 +363,31 @@ h1.Collection-h1 {margin-left: 130px;}
 
 
 section.Collection{
-    margin-top: 1000px;
-    width: 212px;
+    padding-top: 360px;
+    width: 50px;
     margin-left: 60px;
 }
 
-.btn{margin-right: -164px;}
+.btn{margin-right: -324px;}
 
 
 .section.Collection{
     width: 0px;
 }
 
+.Featured-title {
+    text-align: center;
+    margin-top: -120px;
+}
 
+img.f-img {
+    width: 100%;
+    margin-left:0px;
+}
 
-
-
-
+.Featured-main{
+    flex-direction: column;
+}
 
 
 
