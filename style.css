@@ -6,6 +6,15 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -26,6 +35,10 @@
 section.container {
     max-width: 1440px;
     margin: 0 auto;
+}
+.head-img {
+    padding: -1px;
+    margin-left: -90px;
 }
 
 h2.head-h2 {
@@ -98,7 +111,8 @@ i.bx.bx-right-arrow-alt {
 }
 
 .head-img img{
-    width: 100%;
+    width: 82%;
+    margin-left: 80px;
 }
 .banner {
     border: 2px solid #f8f8f8;
@@ -108,9 +122,10 @@ i.bx.bx-right-arrow-alt {
 }
 .banner-img {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 80px;
+    gap: 75px;
 }
 
 /* Collection */
@@ -130,22 +145,23 @@ img.star {
 .collection-flex {
     display: flex;
     gap: 10px;
+    margin-top: 12px;
 }
 
 .Collection-main {
     width: 340px;
-    height: 500px;
+    height: 490px;
     border: 2px solid rgba(255, 255, 255, 1);
     box-shadow: 0px 0px 40px 0px rgb(239 234 234);
 }
 
 .Collection-card {
-    padding: 40px 20px;
+    padding: 20px 20px;
 }
 
 h3.Collection-h3 {
     font-size: 1.75rem;
-    font-weight: 800;
+    font-weight: 500;
     color: rgba(24, 25, 31, 1);
 }
 
@@ -153,13 +169,16 @@ h4.Collection-h4 {
     font-weight: 400;
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.87);
+    font-family: "Inter", sans-serif;
+    margin-top: 6px;
 }
 
 p.Collection-p {
-    margin-top: -28px;
+    margin-top: -19px;
     font-size: 0.87rem;
     font-weight: 700;
     color: rgba(120, 120, 133, 1);
+    font-family: "Inter", sans-serif;
 }
 
 .Collection-container {
@@ -179,7 +198,18 @@ h1.Collection-h1 {
 }
 
 
-
+.btn {
+    float: inline-end;
+    margin-top: 30px;
+    margin-right: 45px;
+    font-size: 1rem;
+    color: rgba(224, 44, 109, 0.87);
+    display: flex;
+    align-items: center;
+    border: none;
+    font-weight: 800;
+    background: white;
+}
 
 
 
@@ -198,7 +228,8 @@ h1.Collection-h1 {
         align-items: center;
     }
 .nav-ul{
-    margin-right: 42px;
+    margin-right: -18px;
+    margin-top: 30px;
 }
 .head-title-img{
     flex-direction: column-reverse;
@@ -215,8 +246,8 @@ h1.Collection-h1 {
 .header-title
 
 {
-    margin-top: 100px;
-    margin-left: 34px;
+    margin-top: 200px;
+    margin-left: 56px;
 }
 button.btn-primary{
     margin: auto;
@@ -231,7 +262,7 @@ button.btn-primary{
         height: 211px;
         align-content: space-evenly;
         gap: 24px;
-        margin: -70px 36px;
+        margin: -74px 220px;
     }
 
 
@@ -239,10 +270,7 @@ img.img-grid{
     width: 59px;
 }
 
-h1.Collection-h1 {
-    margin-left: 50px;
-    text-align: left;
-}
+h1.Collection-h1 {margin-left: 130px;}
 
 .Collection-container{
     margin-left: 40px;
@@ -250,17 +278,21 @@ h1.Collection-h1 {
 
 .Collection-container{
     flex-direction: column;
-    margin-left: 15px;
 }
 
 
 section.Collection{
-    margin-top: 700px;
+    margin-top: 1000px;
+    width: 212px;
+    margin-left: 60px;
 }
 
+.btn{margin-right: -164px;}
 
 
-
+.section.Collection{
+    width: 0px;
+}
 
 
 
